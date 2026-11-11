@@ -37,7 +37,7 @@ description: 制作和修改观众投票动画连载。适用于新建系列、�
    - 正式合成前核对实际执行的脚本、provider 和 Voice ID。沿用项目自带脚本时也要核对其生效配置；命令行指定 MiniMax 的示例适用于本技能脚本。只有用户明确选用其他正式音色才覆盖默认值。占位音轨单独存放。MiniMax 缺配置或合成失败时，修复后重试，禁止自动换音色。切回正式音色后重建配音、时间轴、混音和成片。
 4. **画面**（`docs/03-engine.md`）：在 `EP/index.html` 的 `draw(t)` 里按台词编排场景，关键词上弹出道具；改造那一刻设 `FIX_AT = W_('L03', '词')`。
 5. **看帧**：`python S/render.py EP stills 1,4,8,...`（每句中间一帧），Read `EP/stills/sheet.png`：字幕挡脸、卡片压脸、出画、面板被盖、改前改后对不对。修到满意。
-6. **音效配乐**：改 `EP/audio.py` 的音效时间点（`W(line, word)`），`python S/render.py EP audio`。
+6. **音效配乐**：先查系列音效库，缺项按 [素材复用流程](docs/06-reference-video.md#音效库与新增素材) 补齐。改 `EP/audio.py` 的音效时间点（`W(line, word)`），`python S/render.py EP audio`。
 7. **出片**：`python S/render.py EP all`（约 3–5 分钟）→ `EP/<标题>_DayN.mp4`。
    出片前必查三件事，否则会静默出错（docs/04-voice.md）：
    - `vo.wav`、`soundtrack.wav`、成片三个时长一致（±0.05s）。不一致时检查是否 `mix.write()` 没跑、是否误用了旧音轨或编码有裁切
