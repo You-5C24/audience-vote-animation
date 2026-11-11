@@ -1,0 +1,10 @@
+{
+  "title": "30 Days to the Date",
+  "hero": "Leo",
+  "premise": "Leo has 30 days until his first ever blind date. Every day the audience picks one thing he fixes, and it stays fixed.",
+  "days": 30,
+  "meter": "DATE-READY",
+  "lang": "en",
+  "voice": {"provider": "minimax"},
+  "post_time": "every day, same hour"
+}

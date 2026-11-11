@@ -1,0 +1,15 @@
+{
+ "lead": 0.5,
+ "lines": [
+  {"id": "L01", "scene": "result", "text": "Day two. You picked haircut.", "gap": 0.4},
+  {"id": "L02", "scene": "fix", "text": "The barber took one look at Leo, and asked for a raise.", "gap": 0.4},
+  {"id": "L03", "scene": "fix", "text": "It took two hours, three combs, and one very surprised bird.", "gap": 0.5},
+  {"id": "L04", "scene": "reveal", "text": "But look at him now.", "gap": 0.6},
+  {"id": "L05", "scene": "mom", "text": "His mom saw the photo and texted: who is this handsome man?", "gap": 0.45},
+  {"id": "L06", "scene": "lily", "text": "Then a second text. Lily wants to know what you like to cook.", "gap": 0.4},
+  {"id": "L07", "scene": "boxes", "text": "His kitchen is still forty-seven takeout boxes.", "gap": 0.5},
+  {"id": "L08", "scene": "vote", "text": "Day three. Throw out the boxes, or learn to cook one meal?", "gap": 0.5},
+  {"id": "L09", "scene": "comment", "text": "Comment one word. The winner gets fixed tomorrow.", "gap": 0.45},
+  {"id": "L10", "scene": "end", "text": "Twenty-nine days to go.", "gap": 1.2}
+ ]
+}

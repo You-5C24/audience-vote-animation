@@ -1,0 +1,18 @@
+{
+ "day": 2,
+ "days": 30,
+ "meter": "DATE-READY",
+ "ready": 4,
+ "hair": "short",
+ "stubble": true,
+ "stains": true,
+ "boxes": 7,
+ "socks": true,
+ "fixed": [
+  "HAIRCUT"
+ ],
+ "before": {
+  "hair": "messy",
+  "ready": 0
+ }
+}

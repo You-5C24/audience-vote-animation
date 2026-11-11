@@ -1,0 +1,8 @@
+{
+  "_note": "Every fix the audience can pick. 'set' = state fields that change for good, 'ready' = how much the meter goes up. Add a field here only after the engine can draw both looks (docs/02-character-state.md).",
+  "HAIRCUT": {"set": {"hair": "short"}, "ready": 4},
+  "SHAVE":   {"set": {"stubble": false}, "ready": 3},
+  "BOXES":   {"set": {"boxes": 0}, "ready": 4},
+  "LAUNDRY": {"set": {"stains": false}, "ready": 3},
+  "SOCKS":   {"set": {"socks": false}, "ready": 3}
+}

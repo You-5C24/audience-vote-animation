@@ -1,0 +1,72 @@
+{
+ "lead": 0.6,
+ "title": "30 Days to the Date — Day 1",
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "intro",
+   "text": "This is Leo.",
+   "gap": 0.35
+  },
+  {
+   "id": "L02",
+   "scene": "phone",
+   "text": "In thirty days, his mom has set him up on his first ever blind date.",
+   "gap": 0.45
+  },
+  {
+   "id": "L03",
+   "scene": "socks",
+   "text": "Right now, his socks can stand up on their own.",
+   "gap": 0.4
+  },
+  {
+   "id": "L04",
+   "scene": "hair",
+   "text": "His haircut is older than his phone.",
+   "gap": 0.4
+  },
+  {
+   "id": "L05",
+   "scene": "boxes",
+   "text": "His kitchen is forty-seven takeout boxes.",
+   "gap": 0.4
+  },
+  {
+   "id": "L06",
+   "scene": "tea",
+   "text": "And the last time he talked to a woman, it was to order a bubble tea. Large. No ice.",
+   "gap": 0.55
+  },
+  {
+   "id": "L07",
+   "scene": "you",
+   "text": "Leo can't fix all of this alone. So you're going to help.",
+   "gap": 0.4
+  },
+  {
+   "id": "L08",
+   "scene": "rules",
+   "text": "Every day, you pick one thing he fixes. And once it's fixed, it stays fixed.",
+   "gap": 0.5
+  },
+  {
+   "id": "L09",
+   "scene": "vote",
+   "text": "Day one. Haircut, or the takeout boxes?",
+   "gap": 0.5
+  },
+  {
+   "id": "L10",
+   "scene": "comment",
+   "text": "Comment one word. The winner gets fixed tomorrow.",
+   "gap": 0.45
+  },
+  {
+   "id": "L11",
+   "scene": "end",
+   "text": "Thirty days. One date. Let's go.",
+   "gap": 1.2
+  }
+ ]
+}

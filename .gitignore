@@ -147,3 +147,11 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Render and voice outputs
+.env
+frames/
+stills/
+voice/
+*.wav
+__pycache__/
