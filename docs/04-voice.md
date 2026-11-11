@@ -6,7 +6,7 @@
 
 | | 是什么 | 要什么 |
 | --- | --- | --- |
-| `minimax`（本机默认） | MiniMax `t2a_v2`，`moss_audio_` 克隆音色。中文自然，英文发音也清楚 | `MINIMAX_API_KEY`、`MINIMAX_VOICE_ID` 写进 `.env`（系列文件夹或任一上级目录，或 `~/.vote-series/.env`） |
+| `minimax`（本机默认） | MiniMax `t2a_v2`，`moss_audio_` 克隆音色。中文自然，英文发音也清楚 | `MINIMAX_API_KEY` 写进 `.env`，明确更换音色时在 `series.json` 设置 `voice.voice_id`（系列文件夹或任一上级目录，或 `~/.vote-series/.env`） |
 | `volc` | 火山引擎「声音复刻」，你自己的声音 | 控制台复刻一次，把 `VOLC_API_KEY`、`VOLC_SPEAKER_ID`（S_ 开头）写进 `.env` |
 | `edge`（占位） | edge-tts 免费 AI 声音，只用来先看样片 | 不要密钥 |
 
@@ -15,7 +15,6 @@
 ```
 ~/.vote-series/.env     # 权限 600，已在 .gitignore
 MINIMAX_API_KEY=...
-MINIMAX_VOICE_ID=moss_audio_59d1aa8a-d212-11f1-b609-be0318ac13bc
 MINIMAX_TTS_MODEL=speech-2.8-hd
 MINIMAX_TTS_BASE_URL=https://api.minimax.cn
 ```
